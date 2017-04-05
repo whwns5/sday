@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+	<!-- 객체에 의한 등록 -->
+	<bean id="yongAdvice" class="yong.aop.TimeChecker"/>
+	
+	<aop:config>
+		<!-- 관점을 잡아준다 -->
+		<aop:aspect id="yongAspect" ref="yongAdvice">
+			<!-- 어떤 녀석들이 이녀석의 규칙을 따라야하나를 명시한다. -->
+			<aop:pointcut expression="execution(public * yong.hello.*.say*(..))" id="publicMethod"/>
+			<!-- 전후에 대한 모든 의미 -->
+			<aop:around pointcut-ref="publicMethod" method="yongTime"/>
+		</aop:aspect>
+	</aop:config>
+
+	<bean id="messageBean" class="yong.hello.MessageBeanImple"> 
+		<constructor-arg>
+			<value>spring</value>
+		</constructor-arg>
+		<property name="greeting">
+			<value>Hello</value>
+		</property>
+	</bean>
+</beans>

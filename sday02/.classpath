@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/aopalliance.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/cglib-nodep-2.2.3.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/commons-collections-testframework-3.2.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/commons-pool-1.6.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/cos.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/jstl.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-aop-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-aspects-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-beans-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-build-src-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-context-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-context-support-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-core-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-expression-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-instrument-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-instrument-tomcat-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-jdbc-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-jms-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-orm-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-oxm-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-struts-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-test-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-tx-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-web-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-webmvc-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/spring-webmvc-portlet-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/조준현/utillsetting/lib_second/standard.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
